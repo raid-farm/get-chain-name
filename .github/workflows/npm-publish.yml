@@ -22,6 +22,7 @@ jobs:
       - name: Install dependencies
         run: yarn install
 
+
       - name: Update list
         run: curl https://chainid.network/chains.json | json_pp -json_opt pretty,canonical > chains.json
 
