@@ -1,0 +1,12 @@
+{
+  "name": "@raiddotfarm/get-chain-name",
+  "version": "0.1.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "node tests/test.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "WTFPL",
+  "description": " "
+}
