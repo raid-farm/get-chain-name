@@ -4955,6 +4955,30 @@
       "shortName" : "kava"
    },
    {
+      "chain" : "VChain",
+      "chainId" : 2223,
+      "explorers" : [
+         {
+            "name" : "VChain Scan",
+            "standard" : "EIP3091",
+            "url" : "https://scan.vcex.xyz"
+         }
+      ],
+      "faucets" : [],
+      "infoURL" : "https://bo.vcex.xyz/",
+      "name" : "VChain Mainnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "VNDT",
+         "symbol" : "VNDT"
+      },
+      "networkId" : 2223,
+      "rpc" : [
+         "https://bc.vcex.xyz"
+      ],
+      "shortName" : "VChain"
+   },
+   {
       "chain" : "Kortho Chain",
       "chainId" : 2559,
       "faucets" : [],
@@ -5387,6 +5411,78 @@
          "https://network.uzmigames.com.br/"
       ],
       "shortName" : "UZMI"
+   },
+   {
+      "chain" : "Nahmii",
+      "chainId" : 5551,
+      "explorers" : [
+         {
+            "icon" : "nahmii",
+            "name" : "Nahmii mainnet explorer",
+            "standard" : "EIP3091",
+            "url" : "https://explorer.nahmii.io"
+         }
+      ],
+      "faucets" : [],
+      "icon" : "nahmii",
+      "infoURL" : "https://nahmii.io",
+      "name" : "Nahmii Mainnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Ether",
+         "symbol" : "ETH"
+      },
+      "network" : "mainnet",
+      "networkId" : 5551,
+      "parent" : {
+         "bridges" : [
+            {
+               "url" : "https://bridge.nahmii.io"
+            }
+         ],
+         "chain" : "eip155-1",
+         "type" : "L2"
+      },
+      "rpc" : [
+         "https://l2.nahmii.io"
+      ],
+      "shortName" : "Nahmii"
+   },
+   {
+      "chain" : "Nahmii",
+      "chainId" : 5553,
+      "explorers" : [
+         {
+            "icon" : "nahmii",
+            "name" : "blockscout",
+            "standard" : "EIP3091",
+            "url" : "https://explorer.testnet.nahmii.io"
+         }
+      ],
+      "faucets" : [],
+      "icon" : "nahmii",
+      "infoURL" : "https://nahmii.io",
+      "name" : "Nahmii Testnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Ether",
+         "symbol" : "ETH"
+      },
+      "network" : "testnet",
+      "networkId" : 5553,
+      "parent" : {
+         "bridges" : [
+            {
+               "url" : "https://bridge.nahmii.io"
+            }
+         ],
+         "chain" : "eip155-3",
+         "type" : "L2"
+      },
+      "rpc" : [
+         "https://l2.testnet.nahmii.io"
+      ],
+      "shortName" : "Nahmii testnet"
    },
    {
       "chain" : "SYS",
@@ -8830,7 +8926,7 @@
       },
       "networkId" : 11297108099,
       "rpc" : [
-         "https://palm-testnet.infura.io/v3/{INFURA_API_KEY}"
+         "https://palm-testnet.infura.io/v3/${INFURA_API_KEY}"
       ],
       "shortName" : "tpalm"
    },
@@ -8856,7 +8952,7 @@
       },
       "networkId" : 11297108109,
       "rpc" : [
-         "https://palm-mainnet.infura.io/v3/{INFURA_API_KEY}"
+         "https://palm-mainnet.infura.io/v3/${INFURA_API_KEY}"
       ],
       "shortName" : "palm"
    },
