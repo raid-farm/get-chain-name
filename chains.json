@@ -1422,6 +1422,34 @@
       "title" : "Optimism Testnet Kovan"
    },
    {
+      "chain" : "HSC",
+      "chainId" : 70,
+      "explorers" : [
+         {
+            "name" : "hooscan",
+            "standard" : "EIP3091",
+            "url" : "https://www.hooscan.com"
+         }
+      ],
+      "faucets" : [],
+      "infoURL" : "https://www.hoosmartchain.com",
+      "name" : "Hoo Smart Chain",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Hoo Smart Chain Native Token",
+         "symbol" : "HOO"
+      },
+      "networkId" : 70,
+      "rpc" : [
+         "https://http-mainnet.hoosmartchain.com",
+         "https://http-mainnet2.hoosmartchain.com",
+         "wss://ws-mainnet.hoosmartchain.com",
+         "wss://ws-mainnet2.hoosmartchain.com"
+      ],
+      "shortName" : "hsc",
+      "slip44" : 1170
+   },
+   {
       "chain" : "Conflux",
       "chainId" : 71,
       "explorers" : [
@@ -4996,6 +5024,33 @@
       "shortName" : "ktoc"
    },
    {
+      "chain" : "TPC",
+      "chainId" : 2569,
+      "explorers" : [
+         {
+            "icon" : "techpay",
+            "name" : "tpcscan",
+            "standard" : "EIP3091",
+            "url" : "https://tpcscan.com"
+         }
+      ],
+      "faucets" : [],
+      "icon" : "techpay",
+      "infoURL" : "https://techpay.io/",
+      "name" : "TechPay Mainnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "TechPay",
+         "symbol" : "TPC"
+      },
+      "network" : "mainnet",
+      "networkId" : 2569,
+      "rpc" : [
+         "https://api.techpay.io/"
+      ],
+      "shortName" : "tpc"
+   },
+   {
       "chain" : "CENNZnet",
       "chainId" : 3000,
       "faucets" : [
@@ -6983,6 +7038,32 @@
       "shortName" : "BKLV"
    },
    {
+      "chain" : "MultiVAC",
+      "chainId" : 62621,
+      "explorers" : [
+         {
+            "name" : "MultiVAC Explorer",
+            "standard" : "none",
+            "url" : "https://e.mtv.ac"
+         }
+      ],
+      "faucets" : [],
+      "icon" : "multivac",
+      "infoURL" : "https://mtv.ac",
+      "name" : "MultiVAC Mainnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "MultiVAC",
+         "symbol" : "MTV"
+      },
+      "networkId" : 62621,
+      "rpc" : [
+         "https://rpc.mtv.ac",
+         "https://rpc-eu.mtv.ac"
+      ],
+      "shortName" : "mtv"
+   },
+   {
       "chain" : "ECS",
       "chainId" : 63000,
       "explorers" : [
@@ -8107,6 +8188,34 @@
       "shortName" : "wlkt"
    },
    {
+      "chain" : "CMP",
+      "chainId" : 512512,
+      "explorers" : [
+         {
+            "name" : "Galaxy Scan",
+            "standard" : "none",
+            "url" : "https://galaxy.scan.caduceus.foundation"
+         }
+      ],
+      "faucets" : [
+         "https://dev.caduceus.foundation/testNetwork"
+      ],
+      "infoURL" : "https://caduceus.foundation/",
+      "name" : "CMP-Testnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Caduceus Testnet Token",
+         "symbol" : "CMP"
+      },
+      "network" : "testnet",
+      "networkId" : 512512,
+      "rpc" : [
+         "https://galaxy.block.caduceus.foundation",
+         "wss://galaxy.block.caduceus.foundation"
+      ],
+      "shortName" : "cmp"
+   },
+   {
       "chain" : "Vision-Vpioneer",
       "chainId" : 666666,
       "faucets" : [
@@ -8360,6 +8469,30 @@
          "https://net.iolite.io"
       ],
       "shortName" : "ilt"
+   },
+   {
+      "chain" : "Spectrum",
+      "chainId" : 20180430,
+      "explorers" : [
+         {
+            "name" : "spectrum",
+            "standard" : "none",
+            "url" : "https://spectrum.pub"
+         }
+      ],
+      "faucets" : [],
+      "infoURL" : "https://smartmesh.io",
+      "name" : "SmartMesh Mainnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "SmartMesh Native Token",
+         "symbol" : "SMT"
+      },
+      "networkId" : 1,
+      "rpc" : [
+         "https://jsonapi1.smartmesh.cn"
+      ],
+      "shortName" : "spectrum"
    },
    {
       "chain" : "QKI",
