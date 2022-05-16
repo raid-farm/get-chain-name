@@ -385,9 +385,9 @@
       "chainId" : 18,
       "explorers" : [
          {
-            "name" : "ThundercoreTestNetScanner",
-            "standard" : "none",
-            "url" : "https://scan-testnet.thundercore.com"
+            "name" : "thundercore-blockscout-testnet",
+            "standard" : "EIP3091",
+            "url" : "https://explorer-testnet.thundercore.com"
          }
       ],
       "faucets" : [
@@ -397,7 +397,7 @@
       "name" : "ThunderCore Testnet",
       "nativeCurrency" : {
          "decimals" : 18,
-         "name" : "ThunderCore Testnet Ether",
+         "name" : "ThunderCore Testnet Token",
          "symbol" : "TST"
       },
       "networkId" : 18,
@@ -2194,9 +2194,9 @@
       "chainId" : 108,
       "explorers" : [
          {
-            "name" : "ThundercoreScan",
-            "standard" : "none",
-            "url" : "https://scan.thundercore.com"
+            "name" : "thundercore-viewblock",
+            "standard" : "EIP3091",
+            "url" : "https://viewblock.io/thundercore"
          }
       ],
       "faucets" : [
@@ -2206,12 +2206,14 @@
       "name" : "ThunderCore Mainnet",
       "nativeCurrency" : {
          "decimals" : 18,
-         "name" : "ThunderCore Mainnet Ether",
+         "name" : "ThunderCore Token",
          "symbol" : "TT"
       },
       "networkId" : 108,
       "rpc" : [
-         "https://mainnet-rpc.thundercore.com"
+         "https://mainnet-rpc.thundercore.com",
+         "https://mainnet-rpc.thundertoken.net",
+         "https://mainnet-rpc.thundercore.io"
       ],
       "shortName" : "TT",
       "slip44" : 1001
@@ -2807,6 +2809,33 @@
          "https://rpc-testnet.lachain.io"
       ],
       "shortName" : "TLA"
+   },
+   {
+      "chain" : "AITD",
+      "chainId" : 239,
+      "explorers" : [
+         {
+            "name" : "AITD Chain Explorer",
+            "standard" : "EIP3091",
+            "url" : "https://aitd-explorer-pre.aitdcoin.com"
+         }
+      ],
+      "faucets" : [
+         "https://aitd-faucet-pre.aitdcoin.com/"
+      ],
+      "icon" : "aitd",
+      "infoURL" : "https://www.aitd.io/",
+      "name" : "Aitd Testnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "AITD Testnet",
+         "symbol" : "AITD"
+      },
+      "networkId" : 239,
+      "rpc" : [
+         "http://http-testnet.aitd.io"
+      ],
+      "shortName" : "AITD"
    },
    {
       "chain" : "Energy Web Chain",
@@ -4868,6 +4897,50 @@
       "shortName" : "milkAda"
    },
    {
+      "chain" : "CloudWalk Testnet",
+      "chainId" : 2008,
+      "explorers" : [
+         {
+            "name" : "CloudWalk Testnet Explorer",
+            "standard" : "none",
+            "url" : "https://explorer.testnet.cloudwalk.io"
+         }
+      ],
+      "faucets" : [],
+      "infoURL" : "https://cloudwalk.io",
+      "name" : "CloudWalk Testnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "CloudWalk Native Token",
+         "symbol" : "CWN"
+      },
+      "networkId" : 2008,
+      "rpc" : [],
+      "shortName" : "cloudwalk_testnet"
+   },
+   {
+      "chain" : "CloudWalk Mainnet",
+      "chainId" : 2009,
+      "explorers" : [
+         {
+            "name" : "CloudWalk Mainnet Explorer",
+            "standard" : "none",
+            "url" : "https://explorer.mainnet.cloudwalk.io"
+         }
+      ],
+      "faucets" : [],
+      "infoURL" : "https://cloudwalk.io",
+      "name" : "CloudWalk Mainnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "CloudWalk Native Token",
+         "symbol" : "CWN"
+      },
+      "networkId" : 2009,
+      "rpc" : [],
+      "shortName" : "cloudwalk_mainnet"
+   },
+   {
       "chain" : "420",
       "chainId" : 2020,
       "faucets" : [],
@@ -6149,6 +6222,7 @@
       "chainId" : 8898,
       "explorers" : [
          {
+            "icon" : "mmt",
             "name" : "mmtscan",
             "standard" : "EIP3091",
             "url" : "https://mmtscan.io"
@@ -6157,8 +6231,9 @@
       "faucets" : [
          "https://faucet.mmtscan.io/"
       ],
+      "icon" : "mmt",
       "infoURL" : "https://mmtchain.io/",
-      "name" : "Mammoth",
+      "name" : "Mammoth Mainnet",
       "nativeCurrency" : {
          "decimals" : 18,
          "name" : "Mammoth Token",
