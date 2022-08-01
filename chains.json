@@ -4497,6 +4497,34 @@
       "shortName" : "twan"
    },
    {
+      "chain" : "GTON",
+      "chainId" : 1000,
+      "explorers" : [
+         {
+            "name" : "GTON Network Explorer",
+            "standard" : "EIP3091",
+            "url" : "https://explorer.gton.network"
+         }
+      ],
+      "faucets" : [],
+      "infoURL" : "https://gton.capital",
+      "name" : "GTON Mainnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "GCD",
+         "symbol" : "GCD"
+      },
+      "networkId" : 1000,
+      "parent" : {
+         "chain" : "eip155-1",
+         "type" : "L2"
+      },
+      "rpc" : [
+         "https://rpc.gton.network/"
+      ],
+      "shortName" : "gton"
+   },
+   {
       "chain" : "KLAY",
       "chainId" : 1001,
       "faucets" : [
@@ -8009,6 +8037,40 @@
       "shortName" : "arb1"
    },
    {
+      "chain" : "ETH",
+      "chainId" : 42170,
+      "explorers" : [
+         {
+            "icon" : "blockscout",
+            "name" : "Arbitrum Nova Chain Explorer",
+            "standard" : "EIP3091",
+            "url" : "https://nova-explorer.arbitrum.io"
+         }
+      ],
+      "faucets" : [],
+      "infoURL" : "https://arbitrum.io",
+      "name" : "Arbitrum Nova",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Ether",
+         "symbol" : "ETH"
+      },
+      "networkId" : 42170,
+      "parent" : {
+         "bridges" : [
+            {
+               "url" : "https://bridge.arbitrum.io"
+            }
+         ],
+         "chain" : "eip155-1",
+         "type" : "L2"
+      },
+      "rpc" : [
+         "https://nova.arbitrum.io/rpc"
+      ],
+      "shortName" : "arb-nova"
+   },
+   {
       "chain" : "CELO",
       "chainId" : 42220,
       "explorers" : [
@@ -8156,7 +8218,7 @@
       "rpc" : [
          "https://api.avax.network/ext/bc/C/rpc"
       ],
-      "shortName" : "Avalanche",
+      "shortName" : "avax",
       "slip44" : 9005
    },
    {
@@ -8249,6 +8311,34 @@
       ],
       "shortName" : "tnrg",
       "slip44" : 49797
+   },
+   {
+      "chain" : "GTON Testnet",
+      "chainId" : 50021,
+      "explorers" : [
+         {
+            "name" : "GTON Testnet Network Explorer",
+            "standard" : "EIP3091",
+            "url" : "https://explorer.testnet.gton.network"
+         }
+      ],
+      "faucets" : [],
+      "infoURL" : "https://gton.capital",
+      "name" : "GTON Testnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "GCD",
+         "symbol" : "GCD"
+      },
+      "networkId" : 50021,
+      "parent" : {
+         "chain" : "eip155-3",
+         "type" : "L2"
+      },
+      "rpc" : [
+         "https://testnet.gton.network/"
+      ],
+      "shortName" : "tgton"
    },
    {
       "chain" : "DFK",
@@ -8686,9 +8776,14 @@
       "chainId" : 71401,
       "explorers" : [
          {
+            "name" : "GWScout Explorer",
+            "standard" : "none",
+            "url" : "https://gw-testnet-explorer.nervosdao.community"
+         },
+         {
             "name" : "GWScan Block Explorer",
             "standard" : "none",
-            "url" : "https://v1.aggron.gwscan.com"
+            "url" : "https://v1.testnet.gwscan.com"
          }
       ],
       "faucets" : [
@@ -8698,8 +8793,8 @@
       "name" : "Godwoken Testnet (V1.1)",
       "nativeCurrency" : {
          "decimals" : 18,
-         "name" : "CKB",
-         "symbol" : "CKB"
+         "name" : "pCKB",
+         "symbol" : "pCKB"
       },
       "networkId" : 71401,
       "rpc" : [
@@ -8712,24 +8807,27 @@
       "chainId" : 71402,
       "explorers" : [
          {
+            "name" : "GWScout Explorer",
+            "standard" : "none",
+            "url" : "https://gw-mainnet-explorer.nervosdao.community"
+         },
+         {
             "name" : "GWScan Block Explorer",
             "standard" : "none",
-            "url" : "https://v1.aggron.gwscan.com"
+            "url" : "https://v1.gwscan.com"
          }
       ],
-      "faucets" : [
-         "https://testnet.bridge.godwoken.io"
-      ],
+      "faucets" : [],
       "infoURL" : "https://www.nervos.org",
       "name" : "Godwoken Mainnet",
       "nativeCurrency" : {
          "decimals" : 18,
-         "name" : "CKB",
-         "symbol" : "CKB"
+         "name" : "pCKB",
+         "symbol" : "pCKB"
       },
       "networkId" : 71402,
       "rpc" : [
-         "https://godwoken-testnet-v1.ckbapp.dev"
+         "https://v1.mainnet.godwoken.io/rpc"
       ],
       "shortName" : "gw-mainnet-v1"
    },
@@ -9747,6 +9845,40 @@
       ],
       "shortName" : "arb-rinkeby",
       "title" : "Arbitrum Testnet Rinkeby"
+   },
+   {
+      "chain" : "ETH",
+      "chainId" : 421613,
+      "explorers" : [
+         {
+            "name" : "Arbitrum GÃ¶rli Rollup Explorer",
+            "standard" : "EIP3091",
+            "url" : "https://goerli-rollup-explorer.arbitrum.io"
+         }
+      ],
+      "faucets" : [],
+      "infoURL" : "https://arbitrum.io/",
+      "name" : "Arbitrum GÃ¶rli",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Arbitrum GÃ¶rli Ether",
+         "symbol" : "AGOR"
+      },
+      "networkId" : 421613,
+      "parent" : {
+         "bridges" : [
+            {
+               "url" : "https://bridge.arbitrum.io/"
+            }
+         ],
+         "chain" : "eip155-5",
+         "type" : "L2"
+      },
+      "rpc" : [
+         "https://goerli-rollup.arbitrum.io/rpc/"
+      ],
+      "shortName" : "arb-goerli",
+      "title" : "Arbitrum GÃ¶rli Rollup Testnet"
    },
    {
       "chain" : "DEXALOT",
